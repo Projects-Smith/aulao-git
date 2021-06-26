@@ -1,0 +1,28 @@
+-- COMANDOS GIT
+
+git add . - para adicionar as mudanças que tiveram no diretório.
+
+git config - comando para passar metadata para configurar o seu ambiente para utilizar o git.
+
+Exemplo:
+----------
+git config --global user.name "nome do usuario"
+git config --global user.email "email do usuario"
+git config --global core.editor "vim" - comando para selecionar o editor.
+----------
+
+git push - sobe as alterações para o projeto/repositório remoto, se não for definida uma branch, os arquivos ficaram na branch main por padrão.
+
+git log - visualiza o histórico de commits feitos.
+Variações do comando:
+
+  - git log -3 - irá mostrar os 3 últimos commits feitos.
+  - git log --oneline - irá trazer todos os commits em uma linha só, abreviando o código do commit seguiudo das informações.
+  - git log --author="Challenger" - irá trazer todos os commits feitos pelo autor que for passado como parâmetro, essa busca é case sensitive.
+  - git log --graph --decorate - apresentação gráfica dos logs, melhorando a visualização.
+
+git pull - comando para pegar os arquivos que estão no repositório remoto e trazer para a máquina local
+
+git rm - comando para remover o arquivo, assim como o add, se esse comando for commitado o repositório remoto tera o arquivo deletado.
+
+Parei a aula em 1h 42 min
